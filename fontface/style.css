@@ -1,0 +1,108 @@
+body {
+    background:linear-gradient(to top, #121212, rgb(129, 29, 126));
+    color:white;
+    font-family:subtitulo;
+    max-width: 1200px;
+    Margin: 0 auto;
+    padding: 15px;
+}
+header {
+  display: flex; /*Este display ajuda na organização flex dos elementos e frases*/
+  flex-direction: row; /*Este flex-direction serve para deixar o nosso header em uma linha*/
+  justify-content: space-between; /*cria um espaçamento no cabeçalho*/
+  align-items: center;
+}
+
+#title {
+  font-family: titulo;
+  font-size:16px;
+  line-height: 10px;
+}
+
+h1{
+  font-weight: 200; /*este comando afina nossa fonte de h1*/
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+}
+aside{
+  margin-top: 100px;
+}
+form{
+  display: flex;
+  flex-direction: row;
+
+}
+
+li{
+  display: inline-block;
+  margin: 20px;
+}
+h2{
+  font-size: 56px;
+  line-height:10px;
+  font-family: titulo;
+  font-weight: 200;
+}
+span{
+  color:rgb(207, 51, 228);
+}
+
+article{
+  width:50%;
+  height:50%;
+  margin-top:10px;
+  margin-left:10px;
+
+}
+form{
+  border
+}
+a{
+  color:white;
+}
+
+p{
+  line-height: 20px;
+  max-width: 500px;
+}
+li:hover{
+  color:blueviolet;
+  transition:0.3s all;
+}
+#button{
+  color:white;
+  border: 2px solid rgb(207, 51, 228);
+  padding: 10px;
+  border-radius: 20px;
+}
+#button:hover{
+  color:white;
+  background-color:rgb(207, 51, 228);
+  
+}
+form{
+  display:flex;
+  flex-direction:column;
+  width:70%;
+}
+input{
+  margin-top:10px;
+  height:20px;
+  padding:10px;
+  border-radius:20px;
+  border:none;
+  font-size:20px;
+}
+form [type=submit]{
+  height:47px;
+  width: 50%;
+  background-color:rgb(207, 51, 228);
+  color:white;
+  font-weight:bold;
+}
+form [type=submit]:hover{
+  cursor: pointer;
+  }
